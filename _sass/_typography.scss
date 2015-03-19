@@ -1,0 +1,55 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+
+$font-heading: serif;
+$font-body: "Droid Serif", serif;
+$font-monospace: monospace;
+$font-bold: 700;
+$font-normal: 400;
+
+// Modular scale http://modularscale.com/scale/?px1=14&px2=&ra1=1.5&ra2=0
+$font-xxl: 5.06em;
+$font-xl: 3.37em;
+$font-lg: 2.25em;
+$font-md: 1.5em;
+$font-sm: 1em;
+$font-xs: .8em;
+
+.text-centered {
+  text-align: center;
+}
+
+.text-subtitle {
+  color: $gray;
+}
+
+.text-subtle {
+  color: $gray-500;
+}
+
+::selection {
+  background: $brand-color;
+  color: $white;
+}
+::-moz-selection {
+  background: $brand-color;
+  color: $white;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+  color: $brand-color;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $brand-color;
+  opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $brand-color;
+  opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+  color: $brand-color;
+}
+
+.text-break {
+  word-break: break-all;
+}
