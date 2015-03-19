@@ -1,0 +1,19 @@
+# Site settings
+title: Toques et Clochers 2016
+location: Pomas, France
+email: support@toquesetclochers2016.com
+description: > # this means to ignore newlines until "baseurl:"
+  .
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://toquesetclochers2016.com" # the base hostname & protocol for your site
+twitter_username: toquesetclocher
+facebook_username: toquesetclochers2016
+
+# Build settings
+exclude: ["Gemfile", "Gemfile.lock", "Rakefile"]
+markdown: redcarpet
+redcarpet:
+  extensions: ["autolink"]
+highligher: pygments
+sass:
+  style: :compressed
