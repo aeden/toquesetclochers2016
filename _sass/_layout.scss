@@ -16,19 +16,46 @@
 }
 
 .l-header {
-  padding: $base-unit / 1.5 0;
+  overflow: hidden;
   background: $gray-100;
+}
+
+.l-nav {
+  float: right;
   a {
-    font-size: $font-md;
+    display: inline-block;
+    padding: $base-unit / 2 $base-unit;
     text-decoration: none;
+    &:hover {
+      background: $hero-color;
+      color: $white;
+      .txt-en {
+        color: $white;
+      }
+    }
   }
+  div {
+    line-height: 1.2em;
+  }
+  .txt-en {
+    display: block;
+    font-size: $font-xs;
+  }
+}
+
+.main-anchor {
+  float: left;
+  width: 40%;
+  padding-top: $base-unit / 3;
+  font-size: $font-md;
+  text-decoration: none;
 }
 
 .l-hero {
   background: url(/assets/images/bg-hero.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 40em;
+  min-height: 33em;
 }
 
 .poster {
