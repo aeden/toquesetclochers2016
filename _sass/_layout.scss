@@ -28,12 +28,16 @@
 
 .l-intro {
   padding: $base-unit * 2 0;
-  font-size: $font-md;
   text-align: center;
+  @include breakpoint($bp-screen-md) {
+    font-size: $font-md;
+  }
 }
 
 .l-nav {
-  float: right;
+  @include breakpoint($bp-screen-md) {
+    float: right;
+  }
   a {
     display: inline-block;
     padding: $base-unit / 2 $base-unit;
@@ -56,11 +60,17 @@
 }
 
 .main-anchor {
-  float: left;
-  width: 40%;
   padding-top: $base-unit / 3;
-  font-size: $font-md;
   text-decoration: none;
+  text-align: center;
+  display: block;
+  @include breakpoint($bp-screen-md) {
+    float: left;
+    width: 40%;
+  }
+  @include breakpoint($bp-screen-lg) {
+    font-size: $font-md;
+  }
 }
 
 .l-hero {
@@ -132,8 +142,11 @@
 .poster {
   display: block;
   margin: 0 auto;
-  width: 380px;
+  width: 280px;
   padding-top: $base-unit * 4;
+  @include breakpoint($bp-screen-md) {
+    width: 380px;
+  }
 }
 
 .is-hidden {

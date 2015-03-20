@@ -5,9 +5,11 @@ layout: default
   <div class="l-vert-island">
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </div>
-  <article class="post-content">
+  <header class="post-header">
     <h1 class="txt-fr">{{ page.title-fr }}</h1>
     <h1 class="txt-en">{{ page.title-en }}</h1>
+  </header>
+  <article class="post-content">
     {{ content }}
   </article>
 </div>

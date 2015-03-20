@@ -8,16 +8,34 @@
   }
 }
 
+.post-header {
+  padding-bottom: $base-unit;
+  @include clearfix;
+  .txt-fr, .txt-en {
+    @include breakpoint($bp-screen-md) {
+      float: left;
+      width: 45.5%;
+      margin-left: 9%;
+      &:nth-child(2n + 1) {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
 .post-content {
-  padding-top: $base-unit * 2;
+  padding-top: $base-unit;
   padding-bottom: $base-unit * 8;
   @include clearfix;
   .txt-fr, .txt-en {
-    float: left;
-    width: 45.5%;
-    margin-left: 9%;
-    &:nth-child(2n + 1) {
-      margin-left: 0;
+    padding-bottom: $base-unit;
+    @include breakpoint($bp-screen-md) {
+      float: left;
+      width: 45.5%;
+      margin-left: 9%;
+      &:nth-child(2n + 1) {
+        margin-left: 0;
+      }
     }
   }
 }
