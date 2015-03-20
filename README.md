@@ -15,3 +15,9 @@ bundle install
 ```
 jekyll serve
 ```
+
+## Deploying
+
+```
+git push origin master:gh-pages
+```
