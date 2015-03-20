@@ -15,9 +15,21 @@
   margin: 0 auto;
 }
 
+.container-sm {
+  width: 95%;
+  max-width: 25em;
+  margin: 0 auto;
+}
+
 .l-header {
   overflow: hidden;
   background: $gray-100;
+}
+
+.l-intro {
+  padding: $base-unit * 2 0;
+  font-size: $font-md;
+  text-align: center;
 }
 
 .l-nav {
