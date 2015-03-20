@@ -2,10 +2,13 @@
 layout: default
 ---
 
-<div class="home">
+<section class="l-hero">
+  <img class="poster" src="/assets/images/logo.png" alt="Toques et Clochers"/>
+</section>
 
-  <h1 class="page-heading">Posts</h1>
-
+<div class="container">
+  <section class="posts">
+  <h1>Posts</h1>
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -17,7 +20,6 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  </section>
 </div>

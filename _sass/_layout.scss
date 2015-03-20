@@ -11,26 +11,31 @@
 
 .container {
   width: 95%;
-  max-width: 1000px;
+  max-width: 65em;
   margin: 0 auto;
 }
 
 .l-header {
-}
-
-.l-header-sky {
-  padding-top: $base-unit * 4;
-  @include breakpoint($bp-screen-md) {
-    padding-top: $base-unit * 8;
+  padding: $base-unit / 1.5 0;
+  background: $gray-100;
+  a {
+    font-size: $font-md;
+    text-decoration: none;
   }
-  background: $gray;
 }
 
-.logo {
+.l-hero {
+  background: url(/assets/images/bg-hero.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 40em;
+}
+
+.poster {
   display: block;
   margin: 0 auto;
-  margin-top: -$base-unit * 3;
-  padding-bottom: $base-unit;
+  width: 380px;
+  padding-top: $base-unit * 4;
 }
 
 .is-hidden {
