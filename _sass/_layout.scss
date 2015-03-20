@@ -70,6 +70,16 @@
   min-height: 33em;
 }
 
+.l-about {
+  background: url(/assets/images/bg-about.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 30em;
+  .txt-fr {
+    color: $white;
+  }
+}
+
 .poster {
   display: block;
   margin: 0 auto;
