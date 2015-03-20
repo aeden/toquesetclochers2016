@@ -14,16 +14,12 @@ $font-md: 1.5em;
 $font-sm: 1em;
 $font-xs: .8em;
 
-.text-centered {
+.txt-centered {
   text-align: center;
 }
 
-.text-subtitle {
-  color: $gray;
-}
-
-.text-subtle {
-  color: $gray-500;
+.txt-sm {
+  font-size: $font-xs;
 }
 
 ::selection {
@@ -82,5 +78,21 @@ $font-xs: .8em;
   @extend .txt-icon;
   &:before {
     background: url(/assets/images/facebook.svg);
+  }
+}
+
+.txt-title {
+  padding: $base-unit / 4;
+  border-radius: 4px;
+  background: $hero-color;
+  color: $white;
+}
+
+.txt-block {
+  p {
+    &:first-child {
+      padding-bottom: 0;
+      line-height: 1em;
+    }
   }
 }

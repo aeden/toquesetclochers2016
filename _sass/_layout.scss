@@ -74,10 +74,32 @@
   background: url(/assets/images/bg-about.jpg) no-repeat;
   background-position: center center;
   background-size: cover;
-  min-height: 30em;
-  .txt-fr {
-    color: $white;
+  min-height: 20em;
+  p {
+    font-size: $font-lg;
+    &:first-child {
+      padding-top: $base-unit * 2;
+      padding-bottom: 1em;
+    }
   }
+}
+
+.l-posts {
+  background: url(/assets/images/bg-posts.jpg) no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  min-height: 20em;
+  p {
+    font-size: $font-lg;
+    &:first-child {
+      padding-top: $base-unit * 2;
+      padding-bottom: 1em;
+    }
+  }
+}
+
+.l-vert-island {
+  padding: $base-unit 0;
 }
 
 .l-footer {

@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /posts/
+---
+<div class="l-posts">
+  <p class="txt-fr txt-centered"><span class="txt-title">Articles</span></p>
+  <p class="txt-en txt-centered">Posts</p>
+</div>
+<div class="l-vert-island">
+  <div class="container-sm">
+    <h1 class="txt-fr">Articles <span class="txt-en">/ Posts</span></h1>
+    <div class="txt-sm">
+      <span class="txt-fr">Abonner vouz <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span>
+      <span class="txt-en">/ Subscribe via <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></span>
+    </div>
+    <ul class="l-vert-island">
+      {% for post in site.posts %}
+        <li>
+          <span class="txt-sm">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title-fr }} <span class="txt-en">{{ post.title-en }}</span></a>
+          </h2>
+        </li>
+      {% endfor %}
+    </ul>
+    </section>
+  </div>
+</div>

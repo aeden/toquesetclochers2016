@@ -9,20 +9,3 @@ layout: default
   <p class="txt-fr">Une fête pour déguster les meilleures cuvées destinées à la vente aux enchères et profiter d’une soirée de gala sous le signe de la haute gastronomie</p>
   <p class="txt-en">A festival to taste the best wines for the auction and enjoy a gala evening full of haute cuisine</p>
 </section>
-<div class="container">
-  <section class="posts">
-  <h1>Posts</h1>
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  </section>
-</div>
