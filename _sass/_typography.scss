@@ -57,3 +57,30 @@ $font-xs: .8em;
   color: $gray-500;
   font-style: italic;
 }
+
+.txt-icon {
+  position: relative;
+  padding-left: $base-unit;
+  &:before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    content: "";
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.txt-twitter {
+  @extend .txt-icon;
+  &:before {
+    background: url(/assets/images/twitter.svg);
+  }
+}
+
+.txt-facebook {
+  @extend .txt-icon;
+  &:before {
+    background: url(/assets/images/facebook.svg);
+  }
+}

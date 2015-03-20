@@ -1,7 +1,3 @@
-$base-unit: 1.4em;
-$bp-screen-md: 30em;
-$bp-screen-lg: 45em;
-
 @mixin breakpoint($size) {
   @media all and (min-width: $size) {
     @content;

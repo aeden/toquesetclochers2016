@@ -80,6 +80,33 @@
   }
 }
 
+.l-footer {
+  padding: $base-unit * 2 0;
+  background: $brand-color;
+  p {
+    color: $white;
+  }
+  ul {
+    display: inline-block;
+    padding-right: $base-unit * 2;
+    vertical-align: top;
+  }
+  li {
+    padding-bottom: $base-unit / 2;
+  }
+  a {
+    color: $white;
+    text-decoration: none;
+  }
+  div {
+    line-height: 1.2em;
+  }
+  .txt-en {
+    display: block;
+    color: $hero-color;
+  }
+}
+
 .poster {
   display: block;
   margin: 0 auto;
