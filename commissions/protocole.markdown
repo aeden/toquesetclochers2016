@@ -3,7 +3,7 @@ layout: commissions
 title-fr: Commission Protocole
 title-en: Protocol Committee
 permalink: /commissions/protocole/
-email: commission.decorations@toquesetclochers2016.fr
+email: commission.protocole@toquesetclochers2016.fr
 ---
 
 <div class="txt-fr">
@@ -17,7 +17,8 @@ email: commission.decorations@toquesetclochers2016.fr
 
 <div class="txt-en">
 <ul>
-<li></li>
+<li>Participation in protocol meetings with Sieur d'Arques</li>
+<li>Organization of protocol for ceremonies during Toques et Clochers</li>
 </ul>
 </div>
 
