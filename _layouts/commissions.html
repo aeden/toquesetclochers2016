@@ -13,7 +13,7 @@ layout: default
     {{ content }}
   </article>
   <footer>
-    <p class="post-meta">Contact: <a href="mailto:{{ page.email }}">{{ page.email }}</a></p>
+    <p class="post-meta">{% if page.email %} Contact: <a href="mailto:{{ page.email }}">{{ page.email }}</a>{% endif %}</p>
   </footer>
 </div>
 
