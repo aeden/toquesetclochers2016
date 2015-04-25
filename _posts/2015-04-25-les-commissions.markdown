@@ -2,7 +2,7 @@
 layout: post
 title-fr:  "Les Commissions"
 title-en:  "The Committees"
-date: 2015-05-19
+date: 2015-04-25
 categories: info
 ---
 
