@@ -17,9 +17,9 @@ email: commission.restaurations@toquesetclochers2016.fr
 
 <div class="txt-en">
 <ul>
-<li>Organization of events before Toques et Clochers to raise money for the event</li>
-<li>Meal service points</li>
-<li>Organize the food vendors</li>
-<li></li>
+<li>Highlighting local products and local heritage</li>
+<li>Meal service locations</li>
+<li>Management of food vendors</li>
+<li>Arrange locations for providing meals to event volunteers</li>
 </ul>
 </div>

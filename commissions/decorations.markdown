@@ -10,14 +10,14 @@ email: commission.decorations@toquesetclochers2016.fr
 <ul>
 <li>Décoration du village selon thème</li>
 <li>Emplacement des panneaux publicitaires</li>
-<li>Properté et gestion des déchets</li>
+<li>Propreté et gestion des déchets</li>
 </ul>
 </div>
 
 <div class="txt-en">
 <ul>
 <li>Thematic decorations in the village</li>
-<li>Installation of publicity boards</li>
-<li>Cleanliness and management of wastebins</li>
+<li>Placement of signs announcing Toques et Clochers</li>
+<li>Waste management and cleaning</li>
 </ul>
 </div>

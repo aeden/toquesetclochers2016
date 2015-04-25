@@ -20,7 +20,7 @@ email: commission.eglise@toquesetclochers2016.fr
 <ul>
 <li>Organization of the mass</li>
 <li>Decoration of the church</li>
-<li>Protocol for the benediction of the fûts</li>
+<li>Protocol for the blessing of the casks</li>
 <li>Chorale</li>
 <li>Protocols for the various church events</li>
 </ul>

@@ -19,7 +19,7 @@ email: commission.communication@toquesetclochers2016.fr
 <ul>
 <li>Creation of the Toques et Clochers logo</li>
 <li>Creation of the association logo</li>
-<li></li>
+<li>Printing of visual materials</li>
 <li>Creation and distribution of flyers</li>
 </ul>
 </div>

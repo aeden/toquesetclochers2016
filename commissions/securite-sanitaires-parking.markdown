@@ -20,7 +20,7 @@ email: commission.securite@toquesetclochers2016.fr
 
 <div class="txt-en">
 <ul>
-<li>Communication with police, fire and government</li>
+<li>Communication with police, fire and government offices</li>
 <li>Organization of the security and checkpoints before the day of the event</li>
 <li>Bus routes, departure and arrival (in the village)</li>
 <li>Communication systems for the day of the event</li>

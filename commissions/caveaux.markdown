@@ -1,7 +1,7 @@
 ---
 layout: commissions 
 title-fr: Commission Caveaux
-title-en: Beverage Committee
+title-en: Wine Vault Committee
 permalink: /commissions/caveaux/
 email: commission.caveaux@toquesetclochers2016.fr
 ---
@@ -20,10 +20,10 @@ email: commission.caveaux@toquesetclochers2016.fr
 <div class="txt-en">
 <ul>
 <li>Organization of the flow of visitors between stations throughout the village</li>
-<li>Selection of types and locations of food and beverages</li>
+<li>Choice of locations of wine vaults, food stands and drink ticket booths</li>
 <li>Agreements with wine producers</li>
-<li></li>
+<li>Placement of event tents</li>
 <li>Contact with Sieur d'Arques to validate placements and selections</li>
-<li>Preparation of the rooms and locations for purchasing beverages</li>
+<li>Preparation of the various event spaces</li>
 </ul>
 </div>

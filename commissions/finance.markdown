@@ -22,6 +22,6 @@ email: commission.finances@toquesetclochers2016.fr
 <li>Oversee committee budgets</li>
 <li>Budgeting details</li>
 <li>Oversee collection of receipts and verify</li>
-<li>Oversee insurance (in conjunction with la mairie)</li>
+<li>Oversee insurance (in conjunction with the town hall)</li>
 </ul>
 </div>

@@ -16,6 +16,8 @@ email: commission.artistiques@toquesetclochers2016.fr
 
 <div class="txt-en">
 <ul>
+<li>Interface between the Sieur d'Arques vineyards and the village</li>
+<li>Prepare the exposition hall</li>
 <li></li>
 </ul>
 </div>
