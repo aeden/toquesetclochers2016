@@ -3,7 +3,6 @@ layout: commissions
 title-fr: Commission Restaurations
 title-en: Food Committee
 permalink: /commissions/restaurations/
-email: commission.restaurations@toquesetclochers2016.fr
 ---
 
 <div class="txt-fr">

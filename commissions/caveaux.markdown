@@ -3,7 +3,6 @@ layout: commissions
 title-fr: Commission Caveaux
 title-en: Wine Vault Committee
 permalink: /commissions/caveaux/
-email: commission.caveaux@toquesetclochers2016.fr
 ---
 
 <div class="txt-fr">
