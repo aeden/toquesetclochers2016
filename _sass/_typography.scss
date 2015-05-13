@@ -88,6 +88,12 @@ $font-xs: .8em;
   color: $white;
 }
 
+.txt-date {
+  font-size: $font-lg;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .txt-block {
   p {
     &:first-child {
