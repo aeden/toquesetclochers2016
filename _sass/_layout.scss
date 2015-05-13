@@ -34,6 +34,10 @@
   }
 }
 
+.l-sponsors {
+  text-align: center;
+}
+
 .l-nav {
   @include breakpoint($bp-screen-md) {
     float: right;
@@ -147,6 +151,11 @@
   @include breakpoint($bp-screen-md) {
     width: 380px;
   }
+}
+
+.sponsor {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .is-hidden {
